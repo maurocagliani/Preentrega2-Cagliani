@@ -55,7 +55,7 @@ main {
 
 /* TITULO H1 */
 h1 {
-    color: #FCA311;
+    color: #14213d;
     padding: 50px;
 }
 
@@ -156,21 +156,44 @@ iframe {
    object-fit: cover;
 }
 
-footer {
-    position:absolute;
-    bottom: 0px;
-    margin-bottom: 0px;
-    border: #FCA311;
-    border-radius: 2px;
-    width: 100%;
+.footer{
+    border-top:1px solid rgba(255,255,255,.1);
+    font-family: 'Maven Pro';
+    color: #14213d;
 }
+
+.footer ul li {
+    text-decoration: none;
+    font-family: 'Maven Pro';
+    list-style-type: none;
+    color: #14213d;
+    margin-left: 10px;
+}
+
+.footer h2{
+    margin: 0px;
+    padding: 5px;
+    color: #14213d;
+}
+
+.copyright p{border-top:1px solid rgba(255,255,255,.1);} 
 
 /* clase para logo de contacto whatsapp */
 .whatsapp {
-    position: fixed;
+   position: fixed;
    right: 1%;
    bottom: 2%;
     
+}
+
+.btn-bd-primary {
+    --bs-btn-font-weight: 600;
+    --bs-btn-color: #FCA311;
+    --bs-btn-bg: #545454;
+    --bs-btn-border-color: #545454;
+    --bs-btn-border-radius: .5rem;
+    --bs-btn-hover-bg: #{shade-color(10%)};
+    --bs-btn-hover-border-color: #{shade-color($bd-#14213d, 10%)};
 }
 
 @media (max-width:370px){
