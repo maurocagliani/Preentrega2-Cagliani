@@ -187,6 +187,7 @@ iframe {
 }
 .left {
 	background-image: url(../images/fondo.jpg);
+    background-size:cover;
 	padding: 200px 98px;
 }
 .left h2 {
