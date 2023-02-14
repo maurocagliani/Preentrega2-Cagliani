@@ -18,7 +18,7 @@ body {
 
 header {
     display: flex;
-    background: linear-gradient(to right, black,#e5e5e5);
+    background:  #5f5f5f;
     width: 100%;
     column-gap: 1px;
     }
@@ -87,28 +87,15 @@ form {
     font-family: 'Maven Pro';
 
 }
-/* nav ul li{
-    margin: 0px;
-    padding: 10px;
-    font-size: 24px;
-    list-style: none;
-    justify-content: space-between; 
-    display: inline-flex;
-    margin-left: 25px;
-     
+
+.navbar-brand{
+color: #FCA311;
+text-decoration: none;
+font-family: 'Maven Pro';
+text-shadow: #14213d;
+color: #14213d;
 }
 
-nav ul li a{
-font-weight: 300;
-list-style: none;
-flex-wrap: wrap;
-font-size: 20px; 
-
-}*/
-
-nav ul li a:hover{
-    transform: scale(1.1,1.1);
-}
 
 /* CLASE PARA MENÚ */
 .bullet {
@@ -134,19 +121,6 @@ a {
 } 
 
 
-/* clase para formulario de contacto */
-
-/* .contactoform {
-    width: 50vh;
-    height: 50vh;
-    align-items: center;
-    border: 1px #14213d solid;
-    box-sizing: border-box;
-    padding: 1%;
-    border-radius: 10px; 
-
-} */
-
 iframe {
    align-items: center;
    margin: 3%;
@@ -157,6 +131,7 @@ iframe {
     border-top:1px solid rgba(255,255,255,.1);
     font-family: 'Maven Pro';
     color: #14213d;
+    background: #545454;
 }
 
 .footer ul li {
@@ -183,6 +158,18 @@ iframe {
     
 }
 
+.form-check label{
+    color: #14213d;
+}
+
+.formp {
+    color: #14213d;
+}
+
+.formp a{ 
+    color: #14213d;
+}
+
 .btn-bd-primary {
     --bs-btn-font-weight: 600;
     --bs-btn-color: #FCA311;
@@ -191,6 +178,92 @@ iframe {
     --bs-btn-border-radius: .5rem;
     --bs-btn-hover-bg: #545454{shade-color(10%)};
 }
+
+.form-area {
+	padding-top: 7%;
+}
+.row.single-form {
+	box-shadow: 0 2px 20px -5px rgba(0,0,0,0.5);
+}
+.left {
+	background-image: url(../images/fondo.jpg);
+	padding: 200px 98px;
+}
+.left h2 {
+	color: #14213d;
+	font-weight: 700;
+	font-size: 48px;
+}
+.left h2 span {
+	font-weight: 100;
+}
+.single-form{
+    background: #545454;;
+}
+.right {
+	padding: 70px 100px;
+	position: relative;
+}
+.right i {
+	position: absolute;
+	font-size: 80px;
+	left: -27px;
+	top: 40%;
+	color: #fff;
+}
+.form-control {
+	border: 2px solid #000;
+}
+.right button {
+	border: none;
+	border-radius: 0;
+	background: #5f5f5f;
+	width: 180px;
+	color: #fff;
+	padding: 15px 0;
+	display: inline-block;
+	font-size: 16px;
+	margin-top: 20px;
+	cursor: pointer;
+}
+.right button:hover{
+    background-color: ##5f5f5f;
+}
+
+
+/*responsive del contact form*/
+
+@media (min-width:768px) and (max-width:991px){
+    .right i {
+	top: -52px;
+	transform: rotate(90deg);
+	left: 50%;
+}
+}
+
+@media (max-width:767px){
+    .left {
+  padding: 90px 15px;
+  text-align: center;
+}
+.left h2 {
+  font-size: 25px;
+}
+.right {
+  padding: 25px;
+}
+.right i {
+  top: -52px;
+  transform: rotate(90deg);
+  left: 46%;
+}
+    .right button {
+	width: 150px;
+	padding: 12px 0;
+}
+    
+}
+
 
 @media (max-width:370px){
     nav ul li a{
