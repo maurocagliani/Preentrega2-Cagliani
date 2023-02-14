@@ -9,7 +9,7 @@
 @import url(https://coolors.co/palette/000000-14213d-fca311-e5e5e5-ffffff);
 
 body {
-    background:radial-gradient( #e5e5e5,black);
+    background:#b0b0b0;
     font-family: 'Marven Pro', sans-serif;
     position: relative;
     padding-bottom: 3em;
@@ -74,13 +74,20 @@ form {
     align-items: center;
 }
 
-.navbar {
-   margin-top: 5%;
-   margin-left: 10%; 
-      
+
+
+.bg-body-tertiary {
+    background: #545454;
 }
 
-nav ul li{
+
+.nav-link {
+    color: #FCA311;
+    text-decoration: none;
+    font-family: 'Maven Pro';
+
+}
+/* nav ul li{
     margin: 0px;
     padding: 10px;
     font-size: 24px;
@@ -95,9 +102,9 @@ nav ul li a{
 font-weight: 300;
 list-style: none;
 flex-wrap: wrap;
-font-size: 20px;
+font-size: 20px; 
 
-}
+}*/
 
 nav ul li a:hover{
     transform: scale(1.1,1.1);
@@ -120,16 +127,6 @@ a {
 }
 
 
-/* clase para la secciòn fltoa de aviones */
-.flota {
-    width: 500px;
-    text-align: left;
-    margin: 10px;
-    padding: 10px;
-
-}
-
-
 .parrafoH{
     margin: 50px;
     padding: 10px;
@@ -139,16 +136,16 @@ a {
 
 /* clase para formulario de contacto */
 
-.contactoform {
+/* .contactoform {
     width: 50vh;
     height: 50vh;
     align-items: center;
     border: 1px #14213d solid;
     box-sizing: border-box;
     padding: 1%;
-    border-radius: 10px;
+    border-radius: 10px; 
 
-}
+} */
 
 iframe {
    align-items: center;
@@ -192,8 +189,7 @@ iframe {
     --bs-btn-bg: #545454;
     --bs-btn-border-color: #545454;
     --bs-btn-border-radius: .5rem;
-    --bs-btn-hover-bg: #{shade-color(10%)};
-    --bs-btn-hover-border-color: #{shade-color($bd-#14213d, 10%)};
+    --bs-btn-hover-bg: #545454{shade-color(10%)};
 }
 
 @media (max-width:370px){
@@ -215,7 +211,7 @@ iframe {
     }
 }
 
-@media(max-width:740px){
+@media (min-width:371px) and (max-width:740px){
            nav ul li a{
             font-weight: 50px;
             font-size: 16px;
