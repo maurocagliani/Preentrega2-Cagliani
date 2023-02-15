@@ -37,14 +37,8 @@ main {
     text-align: center;
     font-family: 'Maven Pro', sans-serif;
     height: 100%;
-    padding-bottom: 70px;
+    padding-bottom: 70px; 
 
-}
-
-.maincursos {
-    text-align: left;
-    padding-left: 50px;
-    padding-top: 20px;
 }
 
 .liCursos{
@@ -150,6 +144,11 @@ iframe {
 
 .copyright p{border-top:1px solid rgba(255,255,255,.1);} 
 
+.card {
+    max-width: 319px;
+    background:#5f5f5f
+}
+
 /* clase para logo de contacto whatsapp */
 .whatsapp {
    position: fixed;
@@ -229,6 +228,19 @@ iframe {
 }
 .right button:hover{
     background-color: #FCA311;
+}
+
+.card-title{
+    font-size:30px;
+    font-family: 'Maven Pro';
+    color: #14213d;
+    
+}
+
+.card-text{
+    font-size:15px;
+    font-family: 'Maven Pro';
+    color: #14213d; 
 }
 
 
