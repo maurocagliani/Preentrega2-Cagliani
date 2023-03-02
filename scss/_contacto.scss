@@ -1,0 +1,114 @@
+$color_1: #FCA311;
+$color_2: #14213d;
+$font-family_1: 'Maven Pro';
+
+/* FORMULARIO DE CONTACTO */
+form {
+	margin: auto;
+	padding-top: 20px;
+	align-items: center;
+}
+.bg-body-tertiary {
+	background: #545454;
+}
+.nav-link {
+	color: $color_1;
+	text-decoration: none;
+	font-family: $font-family_1;
+}
+.navbar-brand {
+	color: $color_1;
+	text-decoration: none;
+	font-family: $font-family_1;
+	text-shadow: #14213d;
+	color: $color_2;
+}
+
+.form-check label {
+    color: #14213d;
+}
+
+.formp {
+    color: #14213d;
+}
+
+.formp a {
+    color: #14213d;
+}
+
+.btn-bd-primary {
+    --bs-btn-font-weight: 600;
+    --bs-btn-color: #FCA311;
+    --bs-btn-bg: #545454;
+    --bs-btn-border-color: #545454;
+    --bs-btn-border-radius: .5rem;
+
+    --bs-btn-hover-bg: {
+        shade-color(10%)
+    }
+
+    ;
+}
+
+.form-area {
+    padding-top: 7%;
+}
+
+.row.single-form {
+    box-shadow: 0 2px 20px -5px rgba(0, 0, 0, 0.5);
+}
+
+.left {
+    background-image: url(../images/fondo.jpg);
+    background-size: cover;
+    padding: 200px 98px;
+}
+
+.left h2 {
+    color: #14213d;
+    font-weight: 700;
+    font-size: 48px;
+}
+
+.left h2 span {
+    font-weight: 100;
+}
+
+.single-form {
+    background: #545454;
+    ;
+}
+
+.right {
+    padding: 70px 100px;
+    position: relative;
+}
+
+.right i {
+    position: absolute;
+    font-size: 80px;
+    left: -27px;
+    top: 40%;
+    color: #fff;
+}
+
+.form-control {
+    border: 2px solid #000;
+}
+
+.right button {
+    border: none;
+    border-radius: 0;
+    background: #323232;
+    width: 180px;
+    color: #FCA311;
+    padding: 15px 0;
+    display: inline-block;
+    font-size: 16px;
+    margin-top: 20px;
+    cursor: pointer;
+}
+
+.right button:hover {
+    background-color: #FCA311;
+}
