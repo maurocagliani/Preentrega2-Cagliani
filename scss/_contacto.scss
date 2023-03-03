@@ -59,10 +59,10 @@ form {
 }
 
 .left {
-    background-image: url(../images/fondo.jpg);
-    background-size: cover;
-    padding: 200px 98px;
+     padding: 200px 98px;
 }
+
+
 
 .left h2 {
     color: #14213d;
@@ -111,4 +111,9 @@ form {
 
 .right button:hover {
     background-color: #FCA311;
+}
+
+.mapa {
+    margin-top: 30px;
+    padding-top: 20px;
 }
