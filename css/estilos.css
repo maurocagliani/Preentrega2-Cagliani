@@ -32,6 +32,12 @@ main {
   padding-bottom: 70px;
 }
 
+iframe {
+  align-items: center;
+  margin: 3%;
+  object-fit: cover;
+}
+
 /* TITULO H1 */
 h1 {
   color: #14213d;
@@ -79,6 +85,65 @@ a {
   bottom: 2%;
 }
 
+/*responsive del contact form*/
+@media (min-width: 768px) and (max-width: 991px) {
+  .right i {
+    top: -52px;
+    transform: rotate(90deg);
+    left: 50%;
+  }
+}
+@media (max-width: 767px) {
+  .left {
+    padding: 90px 15px;
+    text-align: center;
+  }
+  .left h2 {
+    font-size: 25px;
+  }
+  .right {
+    padding: 25px;
+  }
+  .right i {
+    top: -52px;
+    transform: rotate(90deg);
+    left: 46%;
+  }
+  .right button {
+    width: 150px;
+    padding: 12px 0;
+  }
+}
+@media (max-width: 370px) {
+  nav ul li a {
+    font-weight: 50px;
+    font-size: 12px;
+    list-style: none;
+    flex-wrap: wrap;
+  }
+  iframe {
+    width: fit-content;
+    height: fit-content;
+  }
+  .contactoform {
+    justify-content: left;
+    width: fit-content;
+    height: fit-content;
+  }
+}
+@media (min-width: 371px) and (max-width: 740px) {
+  nav ul li a {
+    font-weight: 50px;
+    font-size: 16px;
+    list-style: none;
+    flex-wrap: wrap;
+  }
+}
+iframe {
+  width: fit-content;
+  height: fit-content;
+}
+
 /* FORMULARIO DE CONTACTO */
 form {
   margin: auto;
@@ -124,7 +189,7 @@ form {
   --bs-btn-border-radius: .5rem;
   --bs-btn-hover-bg: {
       shade-color(10%)
-  } 
+  } ;
 }
 
 .form-area {
@@ -136,9 +201,7 @@ form {
 }
 
 .left {
-  background-image: url(../images/fondo.jpg);
-  background-size:cover;
-  padding: 200px 98px;
+  margin: 10px;
 }
 
 .left h2 {
@@ -175,9 +238,9 @@ form {
 .right button {
   border: none;
   border-radius: 0;
-  background: #5f5f5f;
+  background: #323232;
   width: 180px;
-  color: #fff;
+  color: #FCA311;
   padding: 15px 0;
   display: inline-block;
   font-size: 16px;
@@ -187,6 +250,11 @@ form {
 
 .right button:hover {
   background-color: #FCA311;
+}
+
+.mapa {
+  margin-top: 30px;
+  padding-top: 20px;
 }
 
 .footer {
