@@ -1,7 +1,19 @@
-
-.card {
+@mixin cardcurso($fondo){
+    background: $fondo;
     max-width: 319px;
-    background: #5f5f5f
+
+}
+
+.card1{
+    @include cardcurso(#5f5f5f);
+}
+
+.card2{
+    @include cardcurso(#757575);
+}
+
+.card3{
+    @include cardcurso(#8e8e8e)
 }
 
 
@@ -18,3 +30,4 @@
     font-family: $font-family_1;
     color: #14213d;
 }
+
