@@ -1,13 +1,13 @@
 .footer {
     border-top: 1px solid rgba(255, 255, 255, .1);
-    font-family: 'Maven Pro';
+    font-family: $font-family_1;
     color: #14213d;
     background: #545454;
 }
 
 .footer ul li {
     text-decoration: none;
-    font-family: 'Maven Pro';
+    font-family: $font-family_1;
     list-style-type: none;
     color: #14213d;
     margin-left: 10px;

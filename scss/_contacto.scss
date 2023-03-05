@@ -4,24 +4,27 @@ $font-family_1: 'Maven Pro';
 
 /* FORMULARIO DE CONTACTO */
 form {
-	margin: auto;
-	padding-top: 20px;
-	align-items: center;
+    margin: auto;
+    padding-top: 20px;
+    align-items: center;
 }
+
 .bg-body-tertiary {
-	background: #545454;
+    background: #545454;
 }
+
 .nav-link {
-	color: $color_1;
-	text-decoration: none;
-	font-family: $font-family_1;
+    color: $color_1;
+    text-decoration: none;
+    font-family: $font-family_1;
 }
+
 .navbar-brand {
-	color: $color_1;
-	text-decoration: none;
-	font-family: $font-family_1;
-	text-shadow: #14213d;
-	color: $color_2;
+    color: $color_1;
+    text-decoration: none;
+    font-family: $font-family_1;
+    text-shadow: #14213d;
+    color: $color_2;
 }
 
 .form-check label {
@@ -59,7 +62,7 @@ form {
 }
 
 .left {
-    margin:10px;
+    margin: 10px;
 }
 
 .left h2 {
