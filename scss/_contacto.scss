@@ -1,7 +1,7 @@
 /* FORMULARIO DE CONTACTO */
 form {
     margin: auto;
-    padding-top: 20px;
+    // padding-top: 2px;
     align-items: center;
 }
 
@@ -36,7 +36,7 @@ form {
 }
 
 .btn-bd-primary {
-    --bs-btn-font-weight: 600;
+    --bs-btn-font-weight: 300;
     --bs-btn-color: $color-amarillo;
     --bs-btn-bg: #545454;
     --bs-btn-border-color: #545454;
@@ -59,6 +59,7 @@ form {
 
 .left {
     margin: 10px;
+    padding:1px;
 }
 
 .left h2 {
@@ -68,7 +69,7 @@ form {
 }
 
 .left h2 span {
-    font-weight: 100;
+    font-weight: 500;
 }
 
 .single-form {
@@ -77,15 +78,13 @@ form {
 }
 
 .right {
-    padding: 70px 100px;
+    padding: 20px 20px;
     position: relative;
 }
 
 .right i {
     position: absolute;
-    font-size: 80px;
-    left: -27px;
-    top: 40%;
+    top: 5%;
     color: #fff;
 }
 
@@ -114,3 +113,8 @@ form {
     margin-top: 30px;
     padding-top: 20px;
 }
+
+
+    
+
+    
